@@ -26,14 +26,14 @@
         h1 {
             color: #ff69b4;
             text-shadow: 2px 2px white;
-            font-size: 6vw; /* Ekran boyutuna göre responsive yazı boyutu */
+            font-size: 6vw; 
         }
 
         .button {
             position: relative;
             margin: 10px;
             padding: 15px 30px;
-            font-size: 4vw; /* Ekran boyutuna göre responsive buton boyutu */
+            font-size: 4vw; 
             font-weight: bold;
             border: none;
             border-radius: 25px;
@@ -163,38 +163,38 @@
             margin-top: 20px;
         }
 
-        /* Responsive Tasarım - Mobil ve Tablet Uyumu */
+       
         @media (max-width: 768px) {
             h1 {
-                font-size: 8vw; /* Tablet ve mobil cihazlarda başlık boyutu */
+                font-size: 8vw; 
             }
 
             .button {
-                font-size: 5vw; /* Buton boyutunu mobilde büyüt */
-                padding: 12px 25px; /* Butonun boyutunu uygun hale getir */
+                font-size: 5vw; 
+                padding: 12px 25px; 
             }
 
             .message-box .button {
-                font-size: 6vw; /* Mesaj kutusundaki buton boyutunu mobilde uygun hale getir */
+                font-size: 6vw; 
             }
         }
 
         @media (max-width: 480px) {
             h1 {
-                font-size: 10vw; /* Mobil cihazlar için daha küçük başlık */
+                font-size: 10vw; 
             }
 
             .button {
-                font-size: 6vw; /* Mobilde daha büyük buton */
+                font-size: 6vw; 
                 padding: 10px 20px;
             }
 
             .message-box .button {
-                font-size: 7vw; /* Mobilde mesaj kutusundaki buton boyutu */
+                font-size: 7vw; 
             }
 
             .message-box p {
-                font-size: 6vw; /* Mesaj kutusundaki yazı boyutu */
+                font-size: 6vw; 
             }
         }
     </style>
@@ -253,7 +253,7 @@
 
             const note = document.createElement('p');
             note.className = 'note';
-            note.innerText = "Altada Hayır yok maalesef :)";
+            note.innerText = " Hayır yok maalesef :)";
             messageBox.appendChild(note);
 
             document.body.appendChild(messageBox);
